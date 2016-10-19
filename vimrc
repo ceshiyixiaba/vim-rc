@@ -17,21 +17,33 @@ set cursorline cursorcolumn
 set textwidth=80
 set colorcolumn=+1
 
-" Softtabs, 2 spaces
-set tabstop=2
-set shiftwidth=2
-set shiftround
-set expandtab
+" Default Indentation
+set autoindent
+set smartindent     " indent when
+set tabstop=2       " tab width
+set softtabstop=2   " backspace
+set shiftwidth=2    " indent width
+" set textwidth=79
+" set smarttab
+set expandtab       " expand tab to space
 
 " Display extra whitespace
 set list listchars=tab:»·,trail:·
 
 " Numbers
 set number
+nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
 "set numberwidth=5
 
 set matchpairs+=<:>
 set hlsearch
+"set incsearch
+set ignorecase
+
+""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+" 上窗口
+let g:Tb_MaxSize = 2
+let g:Tb_TabWrap = 1
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 左窗口

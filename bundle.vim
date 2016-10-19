@@ -10,7 +10,9 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'tomasr/molokai'
 " 文件浏览器
 Plugin 'scrooloose/nerdtree'
-" Tagbar
+" 标签页
+Plugin 'humiaozuzu/TabBar'
+" tabbar
 Plugin 'majutsushi/tagbar'
 " Ctrl+P 搜索
 Plugin 'kien/ctrlp.vim'
