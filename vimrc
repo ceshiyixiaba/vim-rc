@@ -32,7 +32,7 @@ set list listchars=tab:»·,trail:·
 
 " Numbers
 set number
-nnoremap <F2> :set nonumber!<CR>:set foldcolumn=0<CR>
+nnoremap <F2> :set nonumber!<CR>:set paste!<CR>:set foldcolumn=0<CR>
 "set numberwidth=5
 
 set matchpairs+=<:>
