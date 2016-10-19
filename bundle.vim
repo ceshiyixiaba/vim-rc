@@ -21,5 +21,25 @@ Plugin 'Lokaltog/vim-powerline'
 " 状态栏，Git 信息
 Plugin 'tpope/vim-fugitive'
 
+" mkdir
+Plugin 'pbrisbin/vim-mkdir'
+" 快速注释、反注释代码
+Plugin 'vim-scripts/tComment'
+" 快速的删除、修改和添加括号、引号、XML标签等等
+Plugin 'tpope/vim-surround'
+
+" Rails
+Plugin 'tpope/vim-rails'
+" 自动补全 end
+Plugin 'tpope/vim-endwise'
+" HTML emmet
+Plugin 'mattn/emmet-vim'
+" HTML5
+Plugin 'othree/html5.vim'
+" Typescript
+Plugin 'leafgarland/typescript-vim'
+"AngularJS
+Plugin 'burnettk/vim-angular'
+
 call vundle#end()            " required
 filetype plugin indent on    " required
