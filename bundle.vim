@@ -38,8 +38,14 @@ Plugin 'mattn/emmet-vim'
 Plugin 'othree/html5.vim'
 " Typescript
 Plugin 'leafgarland/typescript-vim'
-"AngularJS
+" AngularJS
 Plugin 'burnettk/vim-angular'
+" GO
+Plugin 'fatih/vim-go'
+" CoffeeScript
+Plugin 'kchmck/vim-coffee-script'
+" Nginx
+Plugin 'vim-scripts/nginx.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
