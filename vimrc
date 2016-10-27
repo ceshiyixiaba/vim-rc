@@ -1,6 +1,10 @@
 if filereadable(expand("~/.vim/bundle.vim"))
   source ~/.vim/bundle.vim
 endif
+
+set nobackup
+set nowritebackup
+set noswapfile
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " 主窗口
 

@@ -40,12 +40,14 @@ Plugin 'othree/html5.vim'
 Plugin 'leafgarland/typescript-vim'
 " AngularJS
 Plugin 'burnettk/vim-angular'
-" GO
+" Go
 Plugin 'fatih/vim-go'
-" CoffeeScript
-Plugin 'kchmck/vim-coffee-script'
 " Nginx
 Plugin 'vim-scripts/nginx.vim'
+" HAML
+Plugin 'tpope/vim-haml'
+" CoffeeScript
+Plugin 'kchmck/vim-coffee-script'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
