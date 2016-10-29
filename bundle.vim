@@ -32,6 +32,8 @@ Plugin 'tpope/vim-surround'
 Plugin 'tpope/vim-rails'
 " 自动补全 end
 Plugin 'tpope/vim-endwise'
+" MiniTest
+Plugin 'sunaku/vim-ruby-minitest'
 " HTML emmet
 Plugin 'mattn/emmet-vim'
 " HTML5
@@ -48,6 +50,8 @@ Plugin 'vim-scripts/nginx.vim'
 Plugin 'tpope/vim-haml'
 " CoffeeScript
 Plugin 'kchmck/vim-coffee-script'
+" Docker
+Plugin 'ekalinin/Dockerfile.vim'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
