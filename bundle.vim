@@ -52,6 +52,8 @@ Plugin 'tpope/vim-haml'
 Plugin 'kchmck/vim-coffee-script'
 " Docker
 Plugin 'ekalinin/Dockerfile.vim'
+" gradle
+Plugin 'vim-scripts/vim-gradle'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
