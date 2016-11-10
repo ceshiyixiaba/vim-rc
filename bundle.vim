@@ -54,6 +54,10 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'ekalinin/Dockerfile.vim'
 " gradle
 Plugin 'vim-scripts/vim-gradle'
+"Markdown
+Plugin 'godlygeek/tabular'
+Plugin 'plasticboy/vim-markdown'
+Plugin 'suan/vim-instant-markdown'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
