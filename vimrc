@@ -61,7 +61,7 @@ let NERDTreeDirArrowCollapsible = '▾'
 let NERDChristmasTree=0
 let NERDTreeWinSize=35
 let NERDTreeChDirMode=2
-let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$']
+let NERDTreeIgnore=['\~$', '\.pyc$', '\.swp$', '\.o$']
 let NERDTreeShowBookmarks=1
 let NERDTreeWinPos="left"
 
