@@ -59,6 +59,8 @@ Plugin 'plasticboy/vim-markdown'
 Plugin 'suan/vim-instant-markdown'
 " 快速对齐
 Plugin 'godlygeek/tabular'
+" tags
+Plugin 'szw/vim-tags'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
