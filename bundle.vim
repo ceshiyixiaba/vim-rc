@@ -54,13 +54,12 @@ Plugin 'kchmck/vim-coffee-script'
 Plugin 'ekalinin/Dockerfile.vim'
 " gradle
 Plugin 'vim-scripts/vim-gradle'
-"Markdown
-Plugin 'plasticboy/vim-markdown'
-Plugin 'suan/vim-instant-markdown'
 " 快速对齐
 Plugin 'godlygeek/tabular'
 " tags
 Plugin 'szw/vim-tags'
+" vue
+Plugin 'posva/vim-vue'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
