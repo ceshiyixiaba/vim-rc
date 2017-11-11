@@ -104,3 +104,6 @@ set laststatus=2
 set statusline+=%{fugitive#statusline()}
 
 """"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
+
+" Hexo *.styl
+au BufRead,BufNewFile *.styl set syntax=sass

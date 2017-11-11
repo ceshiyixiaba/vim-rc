@@ -60,6 +60,8 @@ Plugin 'godlygeek/tabular'
 Plugin 'szw/vim-tags'
 " vue
 Plugin 'posva/vim-vue'
+" swigjs
+Plugin 'blockloop/vim-swigjs'
 
 call vundle#end()            " required
 filetype plugin indent on    " required
