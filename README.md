@@ -26,3 +26,5 @@ git submodule update
 * Ctrl+P 搜索
 
 ![vim](images/vim.png)
+
+更新
